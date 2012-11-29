@@ -1,0 +1,108 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	font-size: 13px;
+	color: black;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#root {
+	box-shadow: 0 0 10px silver;
+	margin-left: auto;
+	margin-right: auto;
+	width: 870px;
+	border-left: 1px solid rgba(0, 0, 0, 0.47);;
+	border-right: 1px solid rgba(0, 0, 0, 0.47);;
+	min-height: 100%;
+}
+
+#header {
+	background: black;
+	height: 200px;
+	position: relative;
+}
+#header .img_right {
+	height: 200px;
+	float: right;
+}
+#header .buttons_panel {
+	position: absolute;
+	right: 5px;
+	top: 170px;
+}
+#header .logo_desc {
+	color: gold;
+	position: absolute;
+	top: 40px;
+	left: 121px;
+	font-size: 14px;
+}
+#header .logo_desc img {
+	margin-left: -34px;
+}
+
+.bigmenu_items {
+	margin: 10px;
+	height: 660px;
+}
+.bigmenu_items .item {
+	float: left;
+	position: relative;
+	font-size: 16px;
+	margin: 10px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.bigmenu_items .item:hover img {
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+}
+.bigmenu_items .item img {
+	height: 170px;
+	width: 266px;
+	border-radius: 7px;
+	box-shadow: 0 0 10px silver;
+}
+.bigmenu_items .item .description {
+	background: rgba(0, 0, 0, 0.62);
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	left: 0px;
+	right: 0px;
+	padding: 5px;
+}
+
+
+.menu_items {
+	float: left;
+	margin-top: 10px;
+}
+
+.menu_items .item {
+	width: 180px;
+	padding: 10px;
+	border-bottom: 1px solid silver;
+	margin: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+.menu_items .item:hover {
+	color: gold;
+	background: black;
+}
+
+#content2 {
+	margin-left: 220px;
+	min-height: 300px;
+	border-left: 1px solid silver;
+	margin-top: 10px;
+	padding: 20px;
+}
