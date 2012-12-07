@@ -94,6 +94,7 @@ a {
 	cursor: pointer;
 	margin-bottom: 0px;
 }
+.menu_items .item.active,
 .menu_items .item:hover {
 	color: gold;
 	background: black;
