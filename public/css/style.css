@@ -107,3 +107,10 @@ a {
 	margin-top: 10px;
 	padding: 20px;
 }
+
+.copyright {
+	text-align: right;
+	border-top: 1px solid silver;
+	padding: 15px;
+	color: gray;
+}
