@@ -114,3 +114,7 @@ a {
 	padding: 15px;
 	color: gray;
 }
+
+.counter {
+	float: left;
+}
